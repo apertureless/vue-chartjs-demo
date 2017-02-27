@@ -67,8 +67,7 @@ export default {
 
 <style>
 body {
-  /* animation: colorchange 50s infinite; */
-  background: #fff;
+  animation: colorchange 50s infinite;
 }
 
 @keyframes colorchange
