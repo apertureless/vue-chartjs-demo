@@ -41,72 +41,72 @@
 </template>
 
 <script>
-import BarExample from './components/BarExample'
-import LineExample from './components/LineExample'
-import DoughnutExample from './components/DoughnutExample'
-import PieExample from './components/PieExample'
-import RadarExample from './components/RadarExample'
-import PolarAreaExample from './components/PolarAreaExample'
-import BubbleExample from './components/BubbleExample'
-import ReactiveExample from './components/ReactiveExample'
+  import BarExample from './components/BarExample'
+  import LineExample from './components/LineExample'
+  import DoughnutExample from './components/DoughnutExample'
+  import PieExample from './components/PieExample'
+  import RadarExample from './components/RadarExample'
+  import PolarAreaExample from './components/PolarAreaExample'
+  import BubbleExample from './components/BubbleExample'
+  import ReactiveExample from './components/ReactiveExample'
 
-export default {
-  name: 'app',
-  components: {
-    BarExample,
-    LineExample,
-    DoughnutExample,
-    PieExample,
-    RadarExample,
-    PolarAreaExample,
-    BubbleExample,
-    ReactiveExample
+  export default {
+    name: 'app',
+    components: {
+      BarExample,
+      LineExample,
+      DoughnutExample,
+      PieExample,
+      RadarExample,
+      PolarAreaExample,
+      BubbleExample,
+      ReactiveExample
+    }
   }
-}
 </script>
 
 <style>
-body {
-  animation: colorchange 50s infinite;
-}
+  body {
+    animation: colorchange 50s infinite;
+  }
 
-@keyframes colorchange
-{
-  0%   {background: #9b59b6;}
-  25%  {background: #f1c40f;}
-  50%  {background: #3498db;}
-  75%  {background: #1abc9c;}
-  100% {background: #9b59b6;}
-}
+  @keyframes colorchange
+  {
+    0%   {background: #9b59b6;}
+    25%  {background: #f1c40f;}
+    50%  {background: #3498db;}
+    75%  {background: #1abc9c;}
+    100% {background: #9b59b6;}
+  }
 
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
 
-.container {
-  max-width: 800px;
-  margin:  0 auto;
+  .container {
+    max-width: 600px;
+    margin:  0 auto;
+    color:  rgba(155, 89, 182, 1);
+  }
 
-  color:  rgba(155, 89, 182, 1);
-}
+  .Chart {
+    background: #FFF;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 10px 30px -5px;
+    margin:  25px 0;
+    padding: 22px 15px 15px;
+  }
 
-
-.Chart {
-  background: #212733;
-  border-radius: 15px;
-  box-shadow: 0px 2px 15px rgba(25, 25, 25, 0.27);
-  margin:  25px 0;
-}
-
-.Chart h2 {
-  margin-top: 0;
-  padding: 15px 0;
-  color:  rgba(255, 0,0, 0.5);
-  border-bottom: 1px solid #323d54;
-}
+  .Chart h2 {
+    margin: 0 0 22px;
+    color:  #999;
+    border-bottom: 1px solid #DDD;
+    padding: 0 0 22px;
+    line-height: 1.1;
+  }
 </style>

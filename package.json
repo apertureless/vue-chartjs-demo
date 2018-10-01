@@ -9,6 +9,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "chart.js": "^2.7.2",
     "vue": "2.1.10",
     "vue-chartjs": "^2.3.7"
   },
